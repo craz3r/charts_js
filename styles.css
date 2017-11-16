@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(24,34,59);
+}
+
+.buttons-bar {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+button {
+    color: #fff;
+    background-color: rgb(24,34,59);
+    border: 1px solid #fff;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-right: -5px;
+    transition: all .3s ease-in;
+    margin-bottom: 10px;
+}
+
+.buttons-bar button:last-child {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.buttons-bar button:first-child {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+button:focus,
+button:hover {
+    background-color: #fff;
+    color: rgb(24,34,59);
+    outline: none;
+}
